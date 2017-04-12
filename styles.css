@@ -1,0 +1,49 @@
+body {
+  background-color: #AFD0E8;
+}
+
+*  { border: solid 0.5px green;
+
+}
+
+.header {
+
+}
+
+.logo {
+  background-color: #AFD0E8;
+  padding: 20px 0px;
+  text-align: center;
+  width: 20%;
+  float: left;
+}
+
+.logo img {
+  max-width: 780px;
+  width: 90%;
+}
+
+.links {
+    float: right;
+    margin-top: 40px;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #4b4e61;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.about {
+  float: left;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 0.75rem;
+  color: white;
+
+}
