@@ -44,6 +44,7 @@ a:hover {
   float: left;
   margin-left: 5%;
   width: 90%;
+  background-color: #759C98;
 
 }
 .about {
@@ -53,8 +54,9 @@ a:hover {
   font-weight: lighter;
   font-size: 1rem;
   color: white;
+  background-color: #759C98;
   width: 40%;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-top: 200px;
 }
 
