@@ -105,7 +105,12 @@ a:hover {
   width: 30%;
   max-width: 500px;
   margin: 10px;
+
 }
+img:hover {
+  filter: brightness(50%);
+}
+
 
 
 @media screen and (max-width: 800px) {
