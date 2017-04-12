@@ -2,7 +2,7 @@ body {
   background-color: #AFD0E8;
 }
 
-*  { border: solid 0.5px green;
+*  {
 
 }
 
@@ -16,16 +16,18 @@ body {
   text-align: center;
   width: 20%;
   float: left;
+  margin-left: 5%;
 }
 
 .logo img {
   max-width: 780px;
-  width: 90%;
+  width: 100%;
 }
 
 .links {
     float: right;
-    margin-top: 40px;
+    margin-top: 5%;
+    margin-right: 5%;
     font-size: 1rem;
     font-weight: lighter;
     color: #4b4e61;
@@ -37,6 +39,11 @@ body {
   font-family: sans-serif;
   padding-left: 10px;
   padding-right: 10px;
+
+}
+
+a:hover {
+  color: #759C98;
 }
 
 .about {
@@ -46,4 +53,35 @@ body {
   font-size: 0.75rem;
   color: white;
 
+}
+
+
+.imagetitles {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  float: left;
+  text-align: center;
+  padding: 20px;
+}
+
+.images img {
+  width: 30%;
+  max-width: 500px;
+  margin: 10px;
+
+}
+
+@media screen and (max-width: 800px) {
+  .images img {
+    width: 40%;
+  }
+  .links {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.75em;
+  }
+  .logo {
+    width: 30%;
+  }
 }
