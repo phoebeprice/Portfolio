@@ -34,20 +34,38 @@ body {
   font-family: 'Oswald';
   padding-left: 10px;
   padding-right: 10px;
-
 }
 
 a:hover {
   color: #D9481B;
 }
 
+.aboutcontainer {
+  float: left;
+  margin-left: 5%;
+  width: 90%;
+
+}
 .about {
   float: left;
-  font-family: sans-serif;
+  text-align: center;
+  font-family: 'Oswald';
   font-weight: lighter;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: white;
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 200px;
+}
 
+.adam img {
+  float: right;
+  width: 40%;
+}
+
+.urneighbour {
+  font-family: 'Oswald';
+  font-size: 2rem;
 }
 
 
@@ -62,7 +80,7 @@ a:hover {
 }
 
 .imagetitlesIS {
-  background-color: #85BFCF;
+  background-color: #92BDCF;
   color: white;
   font-family: 'Oswald';
   font-weight: lighter;
@@ -79,15 +97,12 @@ a:hover {
   float: left;
   text-align: center;
   padding: 20px;
-
-
 }
 
 .images img {
   width: 30%;
   max-width: 500px;
   margin: 10px;
-
 }
 
 
