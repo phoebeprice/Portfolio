@@ -1,14 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 body {
   background-color: #AFD0E8;
 }
 
-*  {
-
-}
-
-.header {
-
-}
 
 .logo {
   background-color: #AFD0E8;
@@ -36,14 +31,14 @@ body {
 .links a {
   color: white;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: 'Oswald';
   padding-left: 10px;
   padding-right: 10px;
 
 }
 
 a:hover {
-  color: #759C98;
+  color: #D9481B;
 }
 
 .about {
@@ -56,13 +51,36 @@ a:hover {
 }
 
 
-.imagetitles {
+.imagetitlesNG {
+  background-color: #759C98;
   color: white;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-family: 'Oswald';
+  font-weight: lighter;
   float: left;
   text-align: center;
   padding: 20px;
+}
+
+.imagetitlesIS {
+  background-color: #85BFCF;
+  color: white;
+  font-family: 'Oswald';
+  font-weight: lighter;
+  float: left;
+  text-align: center;
+  padding: 20px;
+}
+
+.imagetitlesILL {
+  background-color: #D9481B;
+  color: white;
+  font-family: 'Oswald';
+  font-weight: lighter;
+  float: left;
+  text-align: center;
+  padding: 20px;
+
+
 }
 
 .images img {
@@ -71,6 +89,7 @@ a:hover {
   margin: 10px;
 
 }
+
 
 @media screen and (max-width: 800px) {
   .images img {
