@@ -65,9 +65,11 @@ a:hover {
   width: 40%;
 }
 
-.urneighbour {
+.title {
   font-family: 'Oswald';
-  font-size: 2rem;
+  font-size: 3rem;
+  text-decoration: underline;
+
 }
 
 
@@ -124,5 +126,9 @@ img:hover {
   }
   .logo {
     width: 30%;
+  }
+
+  .title {
+    font-size: 2rem;
   }
 }
