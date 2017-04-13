@@ -113,6 +113,12 @@ img:hover {
   filter: brightness(50%);
 }
 
+.footer {
+  float: left;
+  color: white;
+  margin-top: 5%;
+}
+
 
 
 @media screen and (max-width: 800px) {
