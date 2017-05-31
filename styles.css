@@ -1,116 +1,159 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 body {
-  background-color: #AFD0E8;
+  background-color: #F6E6E6;
 }
 
 
+/* ALL */
+.header {
+  background-color: #F6F3F3;
+  border-radius: 40px;
+}
+
 .logo {
-  background-color: #AFD0E8;
-  padding: 20px 0px;
-  text-align: center;
-  width: 20%;
-  float: left;
-  margin-left: 5%;
+  background-color: #F6F3F3;
+  margin: auto;
+  width: 40%;
 }
 
 .logo img {
-  max-width: 780px;
   width: 100%;
+  padding-top: 20px;
+  margin: auto;
 }
 
-.links {
-    float: right;
-    margin-top: 5%;
-    margin-right: 5%;
+.linkbar {
+    border-radius: 50px;
+    background-color: pink;
+    width: 95.6%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 20px;
     font-size: 1rem;
     font-weight: lighter;
-    color: #4b4e61;
+    position: fixed;
 }
 
 .links a {
   color: white;
+  margin: auto;
   text-decoration: none;
-  font-family: 'Oswald';
-  padding-left: 10px;
+  font-family: 'Amatic SC', cursive, bold;
+  font-size: 1.5rem;
+  padding-left: 10px;;
   padding-right: 10px;
 }
 
 a:hover {
-  color: #D9481B;
+  color: #AE808E;
 }
 
-.aboutcontainer {
-  float: left;
-  margin-left: 5%;
-  width: 90%;
-  background-color: #759C98;
+/* HOMEPAGE */
 
+.banner img {
+  width: 100%;
+  border-radius: 40px;
 }
-.about {
+
+.bestsellers {
+  max-width: 30%;
   float: left;
+  margin: 1%;
+  margin-top: 0px;
+  color: #AE808E;
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
-  font-family: 'Oswald';
-  font-weight: lighter;
-  font-size: 1rem;
-  color: white;
-  background-color: #759C98;
-  width: 40%;
-  margin-left: 10%;
-  margin-top: 200px;
 }
 
-.adam img {
-  float: right;
-  width: 40%;
+.bestsellersimg img {
+  background-color: #E0B6B6;
+  border-radius: 50px;
+  max-width: 30%;
+  margin: 1%;
+
 }
+
+/* ABOUT PAGE */
+
+
+.ourproductcontainer {
+  float: left;
+  width: 100%;
+
+}
+
+.ourproduct {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: grey;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+
+.ourproductimg img {
+  border-radius: 50px;
+  float: left;
+  width: 60%;
+  margin-right: 0%;
+}
+
+.ourstorecontainer {
+  float: left;
+  width: 100%;
+}
+
+.ourstore {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: grey;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+
+}
+
+.ourstoreimg img {
+  border-radius: 50px;
+  float: right;
+  width: 60%;
+  margin-right: 0%;
+}
+
+.hogsmeadecontainer {
+  float: left;
+  width: 100%;
+}
+
+.hogsmeade {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: grey;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+
+.hogsmeadeimg img {
+  border-radius: 50px;
+  float: left;
+  width: 60%;
+  margin-right: 0%;
+}
+
+
 
 .title {
-  font-family: 'Oswald';
+  font-family: 'Amatic SC', cursive;
   font-size: 3rem;
-  text-decoration: underline;
-
-}
-
-
-.imagetitlesNG {
-  background-color: #759C98;
-  color: white;
-  font-family: 'Oswald';
-  font-weight: lighter;
-  float: left;
+  text-decoration: none;
+  color: #AE808E;
   text-align: center;
-  padding: 20px;
-}
-
-.imagetitlesIS {
-  background-color: #92BDCF;
-  color: white;
-  font-family: 'Oswald';
-  font-weight: lighter;
-  float: left;
-  text-align: center;
-  padding: 20px;
-}
-
-.imagetitlesILL {
-  background-color: #D9481B;
-  color: white;
-  font-family: 'Oswald';
-  font-weight: lighter;
-  float: left;
-  text-align: center;
-  padding: 20px;
-}
-
-.images img {
-  width: 30%;
-  max-width: 500px;
-  margin: 10px;
 
 }
+
 img:hover {
-  filter: brightness(50%);
+  filter: opacity(75%);
 }
 
 .footer {
